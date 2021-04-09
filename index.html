@@ -28,6 +28,12 @@
                     <li class="item"> <a class="nav-links " href=""> Контакты </a> </li>
                 </ul>
                 </nav>
+                <button  class="burger-btn" type="button" data-menu-button>
+                    <svg class="burger-icn">
+                        <use href="./images/sprite.svg#burger-menu"></use>
+                    </svg>
+    
+                </button>
                 <ul class="cont-link list" >
                     <li class="item-cont">
                           <a class="contacts-link" href="mailto:info@devstudio.com">
@@ -50,21 +56,51 @@
                 </ul>
            
             </div>
+            <div class="mobile-menu" data-menu>
+                <button type="button" class="mobile-close-btn" data-menu-close>
+                    <svg class="mobile-close-icon">
+                        <use href="./images/sprite.svg#menu-close"></use>
+                    </svg>
+
+                </button>
+                <ul class="mobile-menu-nav">
+                    <li class="miile-menu-nav-item">
+                        <a href="" class="mobile-menu-nav-link">Студия</a></li>
+                    <li class="miile-menu-nav-item">
+                        <a href="" class="mobile-menu-nav-link">Портфолио</a></li>
+                    <li class="">
+                        <a href="" class="mobile-menu-nav-link">Контакты</a></li>
+                </ul>
+                <ul class="mobile-menu-cont">
+                    <li >
+                        <a  class="mobile-menu-tel" href="tel:+380961111111">
+                            +38 096 111 11 11 </a></li>
+                    <li >
+                        <a class="mobile-menu-mail"  href="mailto:info@devstudio.com">
+                            info@devstudio.com </a></li>
+                </ul>
+                <ul class="mobile-menu-social-links">
+                    <li class="mobile-menu-social-link-item">Instagram</li>
+                    <li class="mobile-menu-social-link-item">Twitter</li>
+                    <li class="mobile-menu-social-link-item">Facebook</li>
+                    <li class="mobile-menu-social-link-item">LinkedIn</li>
+                </ul>
+            </div>
         </header>
  
     <!--HERO-->
         <main>
-        <section class="hero-section">
+        <!-- <section class="hero-section">
             
             <div class="hero-container">
                 <h1 class="hero-title">
                     Эффективные решения для вашего бизнеса</h1> 
                 <button type="button" class="hero-button"  data-modal-open>Заказать услугу</button>
             </div>
-        </section>
+        </section>  -->
 
     <!--DETAILS-->
-        <section class="details-section" >
+        <!-- <section class="details-section" >
             <div class="container">
                 <ul class="opportunoties-icon-list">
                     <li class="list-item-icon">
@@ -103,10 +139,10 @@
                 </ul>
             </div>
            
-        </section>
+        </section> -->
 
        <!-- Whot we do-->
-       <section class="whotwedo-section">
+       <!-- <section class="whotwedo-section">
             <div class="container"><h2 class="imeges-title">Чем мы занимаемся</h2>
                 <ul class="imeges-list">
                     <li class="whotwedo-item"> 
@@ -129,10 +165,10 @@
                     </li>
                 </ul>
             </div>
-       </section> 
+       </section>  -->
 
        <!-- Team -->
-            <section class="our-team">
+            <!-- <section class="our-team">
                 <div class="container"><h2 class="our-team-title">Наша команда</h2>
                 <ul class="our-team-list">
                     <li class="our-team-list-card"> <img src="./images/igor.jpg" alt="" width="270" height="260">
@@ -275,11 +311,11 @@
                 </ul>
                 </div>
           
-            </section>
+            </section> -->
 
             <!--Client section--> 
 
-            <section class="client-section">
+            <!-- <section class="client-section">
                 <div class="container">
                     <h2 class="client-title">Постоянные клиенты</h2>
                     <ul class="client-list">
@@ -327,12 +363,12 @@
                         </li>
                     </ul>
                 </div>
-            </section>
+            </section> -->
         </main>
         
 
        <!--Footer-->
-        <footer class="footer"> 
+        <!-- <footer class="footer"> 
         <div class="footer-container">  
             <div class="address-container">
                 <a lang="en" href="./index.html" class="logo">
@@ -400,9 +436,9 @@
             </div>
         </div>
              
-        </footer>
+        </footer> -->
 
-        <div class="backdrop is-hidden" data-modal>
+        <!-- <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button type="button" class="modal-close-button" data-modal-close>
                     <svg class="close-button-svg">
@@ -452,9 +488,10 @@
                     <button type="submit" class="modal-form-submit-btn">Отправить</button>
                 </form>
             </div>
-        </div>
+        </div> -->
         
         <script src="./js/modal.js"></script>
+        <script src="./js/modal-menu.js"></script>
         
     </body>
 

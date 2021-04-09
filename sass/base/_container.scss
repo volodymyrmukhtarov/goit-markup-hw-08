@@ -1,5 +1,21 @@
 .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0px 15px;
+  width: 100%;
+  padding: 0 15px;
+  outline: 1px solid red;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
